@@ -5,6 +5,7 @@ html, body {
 .jumbotron {
     color: white;
     background-image: url("https://i.imgur.com/vcEDEY6l.jpg");
+    /* background-image: url("https://i.imgur.com/KUk9iU6s.jpg"); */
 }
 
  /* Remove the navbar's default margin-bottom and rounded borders */ 
