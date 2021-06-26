@@ -1,0 +1,24 @@
+html, body {
+    
+}
+
+.jumbotron {
+    color: white;
+    background-image: url("https://i.imgur.com/vcEDEY6l.jpg");
+}
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+.page-section {
+    padding: 6rem;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
