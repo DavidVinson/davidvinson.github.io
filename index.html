@@ -2,19 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>David Vinson Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>David Vinson Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 
-<body>
+<body class="container">
 
-    <main>
-        <!-- <nav class="navbar navbar-inverse">
+
+
+  <!-- <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,75 +33,89 @@
             </div>
         </nav> -->
 
-        <header class="jumbotron">
-            <div class="container text-center">
-                <h1>David Vinson</h1>
-                <h3>Full Statck Web Developer</h3>
-            </div>
-        </header>
 
+  <header class="hero">
+    <div class="hero-body">
+        <p class="title">David Vinson</p>
+        <p class="subtitle">Full Stack Web Developer</p>
 
-        <section class="container-fluid bg-3 text-center">
-            <h3>Portfolio</h3><br>
-            <div class="row">
-                <div class="col-sm-3">
-                    <p>Yore Score</p>
-                    <a href="https://github.com/DavidVinson/solo-YoreScore"><img src="https://i.imgur.com/JrNXWRJ.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-                </div>
-                <!-- <div class="col-sm-3">
-                    <p>Seed to Feed</p>
-                    <a href="#"><img src="https://i.imgur.com/4sD1T4g.jpg?1" class="img-responsive" style="width:100%" alt="Image"></a>
-                </div> -->
-                <div class="col-sm-3">
-                    <p>ToDo List</p>
-                    <a href="https://github.com/DavidVinson/wkendTODO"><img src="https://i.imgur.com/Zw9JuqM.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-                </div>
-                <div class="col-sm-3">
-                    <p>Movies</p>
-                    <a href="https://github.com/DavidVinson/movie-sagas"><img src="https://i.imgur.com/xZvfMlV.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-                </div>
-            </div>
-        </section><br>
+    </div>
 
-        </div><br><br>
-        <section class="page-section text-center" id="contact">
-            <div class="row text-center">
-                <div class="col-md-3">
-                    <h4>Location</h4>
-                    <hr class="my-4" />
-                    <p>Fargo, ND</p>
-                </div>
+  </header>
+<section class="section">
+  <h1 class="subtitle">Contact</h1>
+  <div class="card">
+    <div class="card-content">
+      <div>
+        <p>Fargo, ND</p>
+      </div>
+      <div>
+        <p>davidvinson018@gmail.com</p>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/david-vinson/">LinkedIn</a>
+      </div>
+      </div>
+  </div>
 
-                <div class="col-md-3">
-                    <h4>Email</h4>
-                    <hr class="my-4" />
-                    <p>davidvinson018@gmail.com</p>
-                </div>
+</section>
 
-                <div class="col-md-3">
-                    <h4>LinkedIn</h4>
-                    <hr class="my-4" />
-                    <a href="https://www.linkedin.com/in/david-vinson/">LinkedIn</a>
-                </div>
+<section class="section">
+  <h1 class="subtitle">Portfolio</h1>
+  <div class="block card">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img src="https://i.imgur.com/JrNXWRJ.jpg" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">
+            <a href="https://github.com/DavidVinson/solo-YoreScore">Yore Score</a>
+          </p>
+          <p class="subtitle is-6">A game within a game!</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="block card">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img src="https://i.imgur.com/xZvfMlV.jpg" alt="movies">
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">
+            <a href="https://github.com/DavidVinson/movie-sagas">Movies</a>
+          </p>
+          <p class="subtitle is-6">What's playing</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                <div class="col-md-3">
-                    <h4>Phone</h4>
-                    <hr class="my-4" />
-                    <p>701-388-6655</p>
-    
-                </div>
-            </div>
-
-
-        </section>
-
-
-        <footer class="container-fluid text-center">
-            <p>&copy 2023</p>
-        </footer>
-    </main>
+    <div class="block card">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-128x128">
+              <img src="https://i.imgur.com/Zw9JuqM.jpg" alt="list">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">
+              <a href="https://github.com/DavidVinson/wkendTODO">To Do</a>
+            </p>
+            <p class="subtitle is-6">Wouldn't be complete without a To Do list!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
 
 </body>
-
 </html>
