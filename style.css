@@ -1,0 +1,35 @@
+*:not(html) {
+    border: solid red 2px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.big-intro {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+
+
+
