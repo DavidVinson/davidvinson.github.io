@@ -1,35 +1,51 @@
-*:not(html) {
+/* *:not(html) {
     border: solid red 2px;
-}
+} */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h3 {
-    display: flex;
-    justify-content: center;
+h2 {
+  display: flex;
+  justify-content: end;
+  font-weight: 200;
+}
+
+h3,
+h4 {
+  display: flex;
+  justify-content: flex-start;
+  color: yellow;
 }
 
 .main-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .big-intro {
-    font-size: 4rem;
-    margin-bottom: 0;
+  font-size: 6rem;
+  margin-bottom: 0;
 }
 
+.bio-link-div {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  padding: 4px;
+}
 
+a {
+  padding: 3px;
+}
 
-
+span {
+  color: yellow;
+}
