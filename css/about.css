@@ -1,0 +1,8 @@
+.image-container {
+  height: auto;
+}
+
+img {
+  border-radius: 25%;
+  border: solid yellow 0.125rem;
+}
